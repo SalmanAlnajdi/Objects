@@ -20,7 +20,7 @@ const book = {
   genre: "Programming"
 }
 
-console.log(`The Book title is "${book.title}" and it published in ${book.publishedYear}`);
+console.log(`The Book title is "${book.title}" and it published in ${book["publishedYear"]}`);
 /*****************************************************************
 Part 2: Modifying Objects
 
